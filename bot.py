@@ -26,7 +26,7 @@ class Client(commands.Bot):
 
     # bot initialization
     async def on_ready(self) -> None:
-#        clear_console()
+        clear_console()
         synced = str(len(await self.tree.sync()))
         await self.change_presence(activity=Activity(name="a random CTF", type=5), status=Status.do_not_disturb)
         print(f"{self.user} logged in successfully")
