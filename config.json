@@ -1,0 +1,6 @@
+{
+	"color_file_path":"src/config/colors.json",
+	"ctftime_file_path":"src/config/ctftime.json",
+	"bot_name":"TCC",
+	"bot_logo_url":"https://cdn.discordapp.com/app-icons/996566589623259268/1cfd812cc3b49d628d90b402929a3669.png?size=512"
+}

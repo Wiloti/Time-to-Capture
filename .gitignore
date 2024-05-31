@@ -1,5 +1,4 @@
 .env
 __pycache__
-config.json
 src/functions/__pycache__
 src/congs/__pycache__
