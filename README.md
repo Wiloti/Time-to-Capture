@@ -34,6 +34,7 @@ The necessary **TOKEN** is located on The *bot* panel.
 
 ```
 git clone https://github.com/Wiloti/Time-to-Capture
+cd Time-to-Capture
 pip install -r requirements.txt
 mv .env.example .env
 echo 'DISCORD_TOKEN=<YOUR_TOKEN>' > .env
@@ -45,6 +46,8 @@ python bot.py
 ```
 git clone https://github.com/Wiloti/Time-to-Capture
 cd Time-to-Capture
+mv .env.example .env
+echo 'DISCORD_TOKEN=<YOUR_TOKEN>' > .env
 docker build --tag <NAME> .
 docker run -d <NAME>:latest
 ```
